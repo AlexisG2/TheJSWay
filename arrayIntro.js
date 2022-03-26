@@ -8,3 +8,7 @@ Remove poor Aramis.
 Shows each array element using a for-of loop. */
 
 const musketeers =["Athos", "Porthos", "Aramis"]
+
+// Looping through the array and console.logging each element
+for(let i = 0; i <= musketeers.length - 1; i++){
+    console.log(`${musketeers[i]}`)}

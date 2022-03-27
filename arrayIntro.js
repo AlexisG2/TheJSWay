@@ -12,3 +12,7 @@ const musketeers =["Athos", "Porthos", "Aramis"]
 // Looping through the array and console.logging each element
 for(let i = 0; i <= musketeers.length - 1; i++){
     console.log(`${musketeers[i]}`)}
+
+//added another element to the array 
+
+musketeers.push("D'Artagnan")

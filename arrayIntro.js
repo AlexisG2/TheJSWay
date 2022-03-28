@@ -16,3 +16,8 @@ for(let i = 0; i <= musketeers.length - 1; i++){
 //added another element to the array 
 
 musketeers.push("D'Artagnan")
+
+//Loop through the array using the forEach method
+
+musketeers.forEach(musketeer => {
+    console.log(musketeer)})

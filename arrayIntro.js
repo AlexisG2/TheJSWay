@@ -21,3 +21,7 @@ musketeers.push("D'Artagnan")
 
 musketeers.forEach(musketeer => {
     console.log(musketeer)})
+
+//removal of an element using the splice method
+
+musketeers.splice(2,1)

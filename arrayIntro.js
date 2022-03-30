@@ -25,3 +25,8 @@ musketeers.forEach(musketeer => {
 //removal of an element using the splice method
 
 musketeers.splice(2,1)
+
+// Loop through the array using the For Of method
+
+for(const musketeer of musketeers){
+    console.log(musketeer)}
